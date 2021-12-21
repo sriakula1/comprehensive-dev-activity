@@ -1,5 +1,5 @@
 // JavaScript/TypeScript Development Activity
-// Commit #4
+// Commit #5
 
 const processData = (data) => {
     return data.filter(item => item).map(item => item.trim());
