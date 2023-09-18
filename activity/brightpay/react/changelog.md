@@ -22,3 +22,14 @@
 
 ---
 
+# Brightpay Development - 2023-09-18
+
+**Commit #3**
+
+- Repository: brightpay/brighthub
+- Type: healthcare-platform
+- Language: react
+- Year: 2023
+
+---
+
