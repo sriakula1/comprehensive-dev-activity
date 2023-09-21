@@ -1,5 +1,5 @@
 // Healthcare Platform Module
-// Version 8
+// Version 9
 
 import React from 'react';
 
@@ -20,7 +20,7 @@ export const HealthcareModule = () => {
     return (
         <div>
             <h1>Healthcare Services</h1>
-            <p>Version 8</p>
+            <p>Version 9</p>
         </div>
     );
 };
