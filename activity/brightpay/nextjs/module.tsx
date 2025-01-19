@@ -1,5 +1,5 @@
 // E Commerce
-// Version 37
+// Version 38
 
 import React from 'react';
 
@@ -10,7 +10,7 @@ interface EcommerceProps {
 
 export const EcommerceComponent: React.FC<EcommerceProps> = ({
     config,
-    version = 37
+    version = 38
 }) => {
     const [data, setData] = React.useState(null);
 
