@@ -1,16 +1,16 @@
-// Healthcare Platform
-// Version 87
+// E Commerce
+// Version 88
 
 import React from 'react';
 
-interface HealthcareplatformProps {
+interface EcommerceProps {
     config?: any;
     version?: number;
 }
 
-export const HealthcareplatformComponent: React.FC<HealthcareplatformProps> = ({
+export const EcommerceComponent: React.FC<EcommerceProps> = ({
     config,
-    version = 87
+    version = 88
 }) => {
     const [data, setData] = React.useState(null);
 
@@ -20,10 +20,10 @@ export const HealthcareplatformComponent: React.FC<HealthcareplatformProps> = ({
 
     return (
         <div>
-            <h1>Healthcare Platform</h1>
+            <h1>E Commerce</h1>
             <p>Version {version}</p>
         </div>
     );
 };
 
-export default HealthcareplatformComponent;
+export default EcommerceComponent;
