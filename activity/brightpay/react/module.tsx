@@ -1,5 +1,5 @@
 // Link Management
-// Version 95
+// Version 96
 
 import React from 'react';
 
@@ -10,7 +10,7 @@ interface LinkmanagementProps {
 
 export const LinkmanagementComponent: React.FC<LinkmanagementProps> = ({
     config,
-    version = 95
+    version = 96
 }) => {
     const [data, setData] = React.useState(null);
 
