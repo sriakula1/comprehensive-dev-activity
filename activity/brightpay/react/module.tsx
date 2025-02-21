@@ -1,16 +1,16 @@
-// Link Management
-// Version 99
+// Web Application
+// Version 100
 
 import React from 'react';
 
-interface LinkmanagementProps {
+interface WebapplicationProps {
     config?: any;
     version?: number;
 }
 
-export const LinkmanagementComponent: React.FC<LinkmanagementProps> = ({
+export const WebapplicationComponent: React.FC<WebapplicationProps> = ({
     config,
-    version = 99
+    version = 100
 }) => {
     const [data, setData] = React.useState(null);
 
@@ -20,10 +20,10 @@ export const LinkmanagementComponent: React.FC<LinkmanagementProps> = ({
 
     return (
         <div>
-            <h1>Link Management</h1>
+            <h1>Web Application</h1>
             <p>Version {version}</p>
         </div>
     );
 };
 
-export default LinkmanagementComponent;
+export default WebapplicationComponent;
