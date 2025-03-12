@@ -1,5 +1,5 @@
 // Ai System
-// Version 185
+// Version 186
 
 import React from 'react';
 
@@ -10,7 +10,7 @@ interface AisystemProps {
 
 export const AisystemComponent: React.FC<AisystemProps> = ({
     config,
-    version = 185
+    version = 186
 }) => {
     const [data, setData] = React.useState(null);
 
