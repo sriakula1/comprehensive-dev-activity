@@ -1,16 +1,16 @@
-// Ai System
-// Version 204
+// Healthcare Platform
+// Version 205
 
 import React from 'react';
 
-interface AisystemProps {
+interface HealthcareplatformProps {
     config?: any;
     version?: number;
 }
 
-export const AisystemComponent: React.FC<AisystemProps> = ({
+export const HealthcareplatformComponent: React.FC<HealthcareplatformProps> = ({
     config,
-    version = 204
+    version = 205
 }) => {
     const [data, setData] = React.useState(null);
 
@@ -20,10 +20,10 @@ export const AisystemComponent: React.FC<AisystemProps> = ({
 
     return (
         <div>
-            <h1>Ai System</h1>
+            <h1>Healthcare Platform</h1>
             <p>Version {version}</p>
         </div>
     );
 };
 
-export default AisystemComponent;
+export default HealthcareplatformComponent;
