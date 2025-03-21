@@ -1,5 +1,5 @@
 -- Data Pipeline
--- Version 6
+-- Version 8
 
 CREATE TABLE IF NOT EXISTS activity_log (
     id SERIAL PRIMARY KEY,
@@ -14,4 +14,4 @@ ON activity_log(event_type);
 
 -- Insert sample record
 INSERT INTO activity_log (event_type, event_data)
-VALUES ('data-pipeline', '{"version": 6}');
+VALUES ('data-pipeline', '{"version": 8}');
