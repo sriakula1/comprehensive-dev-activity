@@ -1,5 +1,5 @@
 # Email System
-# Version 9
+# Version 10
 
 from typing import Optional, Dict, Any
 
@@ -20,4 +20,4 @@ class Email_SystemHandler:
 
 if __name__ == "__main__":
     handler = Email_SystemHandler()
-    print(f"Handler initialized - Version 9")
+    print(f"Handler initialized - Version 10")
