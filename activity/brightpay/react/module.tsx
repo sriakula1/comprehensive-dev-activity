@@ -1,16 +1,16 @@
-// Web Application
-// Version 225
+// Healthcare Platform
+// Version 226
 
 import React from 'react';
 
-interface WebapplicationProps {
+interface HealthcareplatformProps {
     config?: any;
     version?: number;
 }
 
-export const WebapplicationComponent: React.FC<WebapplicationProps> = ({
+export const HealthcareplatformComponent: React.FC<HealthcareplatformProps> = ({
     config,
-    version = 225
+    version = 226
 }) => {
     const [data, setData] = React.useState(null);
 
@@ -20,10 +20,10 @@ export const WebapplicationComponent: React.FC<WebapplicationProps> = ({
 
     return (
         <div>
-            <h1>Web Application</h1>
+            <h1>Healthcare Platform</h1>
             <p>Version {version}</p>
         </div>
     );
 };
 
-export default WebapplicationComponent;
+export default HealthcareplatformComponent;
