@@ -1,16 +1,16 @@
-// Ai System
-// Version 246
+// Web Application
+// Version 247
 
 import React from 'react';
 
-interface AisystemProps {
+interface WebapplicationProps {
     config?: any;
     version?: number;
 }
 
-export const AisystemComponent: React.FC<AisystemProps> = ({
+export const WebapplicationComponent: React.FC<WebapplicationProps> = ({
     config,
-    version = 246
+    version = 247
 }) => {
     const [data, setData] = React.useState(null);
 
@@ -20,10 +20,10 @@ export const AisystemComponent: React.FC<AisystemProps> = ({
 
     return (
         <div>
-            <h1>Ai System</h1>
+            <h1>Web Application</h1>
             <p>Version {version}</p>
         </div>
     );
 };
 
-export default AisystemComponent;
+export default WebapplicationComponent;
