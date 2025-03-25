@@ -1,5 +1,5 @@
 // Web Application
-// Version 255
+// Version 257
 
 import React from 'react';
 
@@ -10,7 +10,7 @@ interface WebapplicationProps {
 
 export const WebapplicationComponent: React.FC<WebapplicationProps> = ({
     config,
-    version = 255
+    version = 257
 }) => {
     const [data, setData] = React.useState(null);
 
