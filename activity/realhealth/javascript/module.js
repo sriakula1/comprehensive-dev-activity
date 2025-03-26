@@ -1,5 +1,5 @@
 // Edge Function
-// Version 14
+// Version 15
 
 interface EdgefunctionConfig {
     enabled: boolean;
@@ -10,7 +10,7 @@ export class EdgefunctionHandler {
     private config: EdgefunctionConfig;
 
     constructor(config?: EdgefunctionConfig) {
-        this.config = config || { enabled: true, version: 14 };
+        this.config = config || { enabled: true, version: 15 };
     }
 
     async process(data: any): Promise<any> {
