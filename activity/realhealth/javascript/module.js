@@ -1,5 +1,5 @@
 // Analytics
-// Version 19
+// Version 20
 
 interface AnalyticsConfig {
     enabled: boolean;
@@ -10,7 +10,7 @@ export class AnalyticsHandler {
     private config: AnalyticsConfig;
 
     constructor(config?: AnalyticsConfig) {
-        this.config = config || { enabled: true, version: 19 };
+        this.config = config || { enabled: true, version: 20 };
     }
 
     async process(data: any): Promise<any> {
