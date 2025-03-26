@@ -1,16 +1,16 @@
-// Edge Function
-// Version 18
+// Analytics
+// Version 19
 
-interface EdgefunctionConfig {
+interface AnalyticsConfig {
     enabled: boolean;
     version: number;
 }
 
-export class EdgefunctionHandler {
-    private config: EdgefunctionConfig;
+export class AnalyticsHandler {
+    private config: AnalyticsConfig;
 
-    constructor(config?: EdgefunctionConfig) {
-        this.config = config || { enabled: true, version: 18 };
+    constructor(config?: AnalyticsConfig) {
+        this.config = config || { enabled: true, version: 19 };
     }
 
     async process(data: any): Promise<any> {
@@ -22,4 +22,4 @@ export class EdgefunctionHandler {
     }
 }
 
-export default EdgefunctionHandler;
+export default AnalyticsHandler;
