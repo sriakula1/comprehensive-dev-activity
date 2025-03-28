@@ -1,5 +1,5 @@
 // Microservice
-// Version 12
+// Version 21
 
 interface MicroserviceConfig {
     enabled: boolean;
@@ -10,7 +10,7 @@ export class MicroserviceHandler {
     private config: MicroserviceConfig;
 
     constructor(config?: MicroserviceConfig) {
-        this.config = config || { enabled: true, version: 12 };
+        this.config = config || { enabled: true, version: 21 };
     }
 
     async process(data: any): Promise<any> {
