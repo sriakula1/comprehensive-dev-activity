@@ -1,5 +1,5 @@
 // Healthcare Platform
-// Version 332
+// Version 333
 
 import React from 'react';
 
@@ -10,7 +10,7 @@ interface HealthcareplatformProps {
 
 export const HealthcareplatformComponent: React.FC<HealthcareplatformProps> = ({
     config,
-    version = 332
+    version = 333
 }) => {
     const [data, setData] = React.useState(null);
 
