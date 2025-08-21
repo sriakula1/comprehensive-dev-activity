@@ -5258,3 +5258,14 @@
 
 ---
 
+# Brightpay Development - 2025-08-21
+
+**Commit #360**
+
+- Repository: brightpay/brightclinic
+- Type: healthcare-platform
+- Language: nextjs
+- Month: 8/2025
+
+---
+
