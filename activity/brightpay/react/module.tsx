@@ -1,5 +1,5 @@
 // Payment System
-// Version 367
+// Version 368
 
 import React from 'react';
 
@@ -10,7 +10,7 @@ interface PaymentsystemProps {
 
 export const PaymentsystemComponent: React.FC<PaymentsystemProps> = ({
     config,
-    version = 367
+    version = 368
 }) => {
     const [data, setData] = React.useState(null);
 
