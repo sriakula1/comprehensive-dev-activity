@@ -1,16 +1,16 @@
-// Web Application
-// Version 363
+// Payment System
+// Version 365
 
 import React from 'react';
 
-interface WebapplicationProps {
+interface PaymentsystemProps {
     config?: any;
     version?: number;
 }
 
-export const WebapplicationComponent: React.FC<WebapplicationProps> = ({
+export const PaymentsystemComponent: React.FC<PaymentsystemProps> = ({
     config,
-    version = 363
+    version = 365
 }) => {
     const [data, setData] = React.useState(null);
 
@@ -20,10 +20,10 @@ export const WebapplicationComponent: React.FC<WebapplicationProps> = ({
 
     return (
         <div>
-            <h1>Web Application</h1>
+            <h1>Payment System</h1>
             <p>Version {version}</p>
         </div>
     );
 };
 
-export default WebapplicationComponent;
+export default PaymentsystemComponent;
